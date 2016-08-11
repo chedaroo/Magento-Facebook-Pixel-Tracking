@@ -1,0 +1,14 @@
+<?php if($this->canShowWishlist()):?>
+
+    <script type="text/javascript">
+
+        fbq('track', 'AddToWishlist', {
+            value: <?php echo $this->getProductPrice() ?>,
+            currency: "<?php echo Mage::app()->getStore()->getCurrentCurrencyCode() ?>",
+            content_name: "<?php echo $this->getProductName() ?>",
+            content_ids: "<?php echo $this->getProductSku() ?>"
+        });
+
+    </script>
+
+<?php endif; ?>

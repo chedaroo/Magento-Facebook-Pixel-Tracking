@@ -1,0 +1,7 @@
+app/code/local/Webtise/Fbpixel
+
+app/design/frontend/base/default/layout/webtise/fbpixel.xml
+
+app/design/frontend/base/default/template/webtise/fbpixel
+
+app/etc/modules/Webtise_Fbpixel.xml

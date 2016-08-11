@@ -1,0 +1,9 @@
+<?php if($this->showSearch()): ?>
+
+    <script type="text/javascript">
+        fbq('track', 'Search', {
+            search_string: "<?php echo $this->getSearchTerm(); ?>"
+        });
+    </script>
+
+<?php endif; ?>

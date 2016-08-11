@@ -1,0 +1,34 @@
+<?php if($this->canShowPurchase()): ?>
+
+    <?php if($this->getItemCount() == 1): ?>
+
+        <script type="text/javascript">
+
+            // Single Item
+            fbq('track', 'Purchase', {
+                content_name: "<?php echo $this->getProductName(); ?>",
+                content_ids: "<?php echo $this->getSkus(); ?>",
+                content_type: "product",
+                value: <?php echo $this->getOrderTotal(); ?>,
+                currency: "<?php echo Mage::app()->getStore()->getCurrentCurrencyCode() ?>"
+            });
+
+        </script>
+
+    <?php else: ?>
+
+        <script type="text/javascript">
+
+            // Multiple items
+            fbq('track', 'Purchase', {
+                content_ids: <?php echo json_encode($this->getSkus()); ?>,
+                content_type: "product",
+                value: <?php echo $this->getOrderTotal(); ?>,
+                currency: "<?php echo Mage::app()->getStore()->getCurrentCurrencyCode() ?>"
+            });
+
+        </script>
+
+    <?php endif; ?>
+
+<?php endif; ?>

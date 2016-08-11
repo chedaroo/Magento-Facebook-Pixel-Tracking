@@ -1,0 +1,12 @@
+<?php if($this->canShowRegistration()): ?>
+
+    <script type="text/javascript">
+
+        fbq('track', 'CompleteRegistration', {
+            content_name: 'Signup',
+            status: 'complete'
+        });
+
+    </script>
+
+<?php endif; ?>
