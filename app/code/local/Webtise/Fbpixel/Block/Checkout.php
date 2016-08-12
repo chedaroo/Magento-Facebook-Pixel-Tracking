@@ -66,6 +66,9 @@ class Webtise_Fbpixel_Block_Checkout extends Webtise_Fbpixel_Block_Head
         foreach($items as $item) {
             $skus[] = $item->getSku();
         }
+        if(count($skus) > 1) {
+            json_encode($skus);
+        }
         return $skus;
     }
 
