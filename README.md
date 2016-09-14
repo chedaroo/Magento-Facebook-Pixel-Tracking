@@ -3,7 +3,7 @@
 ### What is this repository for? ###
 
 * Easy to use Facebook Pixel implementation for Magento
-* v1.0.0
+* v1.0.2
 
 ### How do I get set up? ###
 
