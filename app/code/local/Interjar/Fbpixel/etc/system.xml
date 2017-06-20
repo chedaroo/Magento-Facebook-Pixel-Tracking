@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
     <tabs>
-        <webtise translate="label" module="fbpixel">
-            <label>Webtise</label>
+        <interjar translate="label" module="fbpixel">
+            <label>Interjar</label>
             <sort_order>500</sort_order>
-        </webtise>
+        </interjar>
     </tabs>
     <sections>
         <fbpixel translate="label" module="fbpixel">
             <label>Facebook Pixel</label>
             <sort_order>10</sort_order>
-            <tab>webtise</tab>
+            <tab>interjar</tab>
             <frontend_type>text</frontend_type>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
