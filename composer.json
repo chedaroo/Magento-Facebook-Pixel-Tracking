@@ -1,4 +1,7 @@
 {
-  "name": "webtise/fbpixel",
-  "type": "magento-module"
+  "name": "interjar/fbpixel",
+  "type": "magento-module",
+  "description": "Magento 1.x Facebook Pixel Tracking Module",
+  "version": "1.1.0",
+  "license": "MIT"
 }

@@ -6,10 +6,10 @@
  * Time: 10:39
  */
 
-class Webtise_Fbpixel_Block_Head extends Mage_Core_Block_Template
+class Interjar_Fbpixel_Block_Head extends Mage_Core_Block_Template
 {
     /**
-     * @var Webtise_Fbpixel_Helper_Data
+     * @var Interjar_Fbpixel_Helper_Data
      */
     protected $_helper;
 

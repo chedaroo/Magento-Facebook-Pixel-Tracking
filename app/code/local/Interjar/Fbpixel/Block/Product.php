@@ -6,7 +6,7 @@
  * Time: 15:13
  */
 
-class Webtise_Fbpixel_Block_Product extends Webtise_Fbpixel_Block_Head
+class Interjar_Fbpixel_Block_Product extends Interjar_Fbpixel_Block_Head
 {
     /**
      * @var Mage_Catalog_Model_Product
@@ -14,7 +14,7 @@ class Webtise_Fbpixel_Block_Product extends Webtise_Fbpixel_Block_Head
     protected $_product;
 
     /**
-     * Webtise_Fbpixel_Block_Viewcontent_Product constructor.
+     * Interjar_Fbpixel_Block_Viewcontent_Product constructor.
      * Set product using registry object
      */
     public function __construct()

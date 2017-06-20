@@ -6,7 +6,7 @@
  * Time: 16:21
  */
 
-class Webtise_Fbpixel_Block_Wishlist extends Webtise_Fbpixel_Block_Product
+class Interjar_Fbpixel_Block_Wishlist extends Interjar_Fbpixel_Block_Product
 {
     /**
      * @var bool|Mage_Catalog_Model_Product
@@ -16,7 +16,7 @@ class Webtise_Fbpixel_Block_Wishlist extends Webtise_Fbpixel_Block_Product
     /**
      * Set product
      *
-     * Webtise_Fbpixel_Block_Wishlist constructor.
+     * Interjar_Fbpixel_Block_Wishlist constructor.
      */
     public function __construct()
     {

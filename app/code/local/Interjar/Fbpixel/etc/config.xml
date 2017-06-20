@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <config>
     <modules>
-        <Webtise_Fbpixel>
+        <Interjar_Fbpixel>
             <version>1.0.3</version>
-        </Webtise_Fbpixel>
+        </Interjar_Fbpixel>
     </modules>
     <global>
         <helpers>
             <fbpixel>
-                <class>Webtise_Fbpixel_Helper</class>
+                <class>Interjar_Fbpixel_Helper</class>
             </fbpixel>
         </helpers>
         <blocks>
             <fbpixel>
-                <class>Webtise_Fbpixel_Block</class>
+                <class>Interjar_Fbpixel_Block</class>
             </fbpixel>
         </blocks>
         <models>
             <fbpixel>
-                <class>Webtise_Fbpixel_Model</class>
+                <class>Interjar_Fbpixel_Model</class>
             </fbpixel>
         </models>
         <events>
@@ -64,18 +64,18 @@
         <layout>
             <updates>
                 <fbpixel>
-                    <file>webtise/fbpixel.xml</file>
+                    <file>interjar/fbpixel.xml</file>
                 </fbpixel>
             </updates>
         </layout>
     </frontend>
     <default>
-        <webtise>
+        <interjar>
             <fbpixel>
                 <general>
                     <enabled>1</enabled>
                 </general>
             </fbpixel>
-        </webtise>
+        </interjar>
     </default>
 </config>

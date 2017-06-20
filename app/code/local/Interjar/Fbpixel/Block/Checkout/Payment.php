@@ -6,7 +6,7 @@
  * Time: 13:37
  */
 
-class Webtise_Fbpixel_Block_Checkout_Payment extends Webtise_Fbpixel_Block_Checkout
+class Interjar_Fbpixel_Block_Checkout_Payment extends Interjar_Fbpixel_Block_Checkout
 {
 
     /**

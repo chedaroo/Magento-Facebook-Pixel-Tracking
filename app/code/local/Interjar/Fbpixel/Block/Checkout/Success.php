@@ -6,7 +6,7 @@
  * Time: 15:10
  */
 
-class Webtise_Fbpixel_Block_Checkout_Success extends Mage_Checkout_Block_Onepage_Success
+class Interjar_Fbpixel_Block_Checkout_Success extends Mage_Checkout_Block_Onepage_Success
 {
 
     protected $_order;

@@ -6,7 +6,7 @@
  * Time: 10:23
  */
 
-class Webtise_Fbpixel_Helper_Data extends Mage_Core_Helper_Abstract
+class Interjar_Fbpixel_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
      * Check system config to see if Fb Pixel is enabled

@@ -6,7 +6,7 @@
  * Time: 11:50
  */
 
-class Webtise_Fbpixel_Block_Search extends Webtise_Fbpixel_Block_Head
+class Interjar_Fbpixel_Block_Search extends Interjar_Fbpixel_Block_Head
 {
     public function getSearchTerm()
     {

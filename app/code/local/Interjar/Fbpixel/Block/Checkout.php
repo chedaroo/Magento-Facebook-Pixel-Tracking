@@ -6,7 +6,7 @@
  * Time: 08:35
  */
 
-class Webtise_Fbpixel_Block_Checkout extends Webtise_Fbpixel_Block_Head
+class Interjar_Fbpixel_Block_Checkout extends Interjar_Fbpixel_Block_Head
 {
     /**
      * Customer's quote
@@ -16,7 +16,7 @@ class Webtise_Fbpixel_Block_Checkout extends Webtise_Fbpixel_Block_Head
     protected $_quote;
 
     /**
-     * Webtise_Fbpixel_Block_Checkout constructor.
+     * Interjar_Fbpixel_Block_Checkout constructor.
      * Set quote variable $_quote
      *
      */

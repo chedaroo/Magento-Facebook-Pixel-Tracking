@@ -1,7 +1,7 @@
-app/code/local/Webtise/Fbpixel
+app/code/local/Interjar/Fbpixel
 
-app/design/frontend/base/default/layout/webtise/fbpixel.xml
+app/design/frontend/base/default/layout/interjar/fbpixel.xml
 
-app/design/frontend/base/default/template/webtise/fbpixel
+app/design/frontend/base/default/template/interjar/fbpixel
 
-app/etc/modules/Webtise_Fbpixel.xml
+app/etc/modules/Interjar_Fbpixel.xml
