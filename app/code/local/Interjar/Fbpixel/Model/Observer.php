@@ -6,7 +6,7 @@
  * Time: 10:36
  */
 
-class Webtise_Fbpixel_Model_Observer
+class Interjar_Fbpixel_Model_Observer
 {
     public function addToCartTracking(Varien_Event_Observer $observer)
     {

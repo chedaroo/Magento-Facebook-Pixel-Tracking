@@ -6,7 +6,7 @@
  * Time: 16:35
  */
 
-class Webtise_Fbpixel_Block_Registration extends Webtise_Fbpixel_Block_Head
+class Interjar_Fbpixel_Block_Registration extends Interjar_Fbpixel_Block_Head
 {
     public function canShowRegistration()
     {

@@ -6,7 +6,7 @@
  * Time: 10:18
  */
 
-class Webtise_Fbpixel_Model_System_Config_Source_Event_Types
+class Interjar_Fbpixel_Model_System_Config_Source_Event_Types
 {
     public function toOptionArray()
     {
