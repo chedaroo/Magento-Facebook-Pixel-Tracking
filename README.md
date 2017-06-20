@@ -1,4 +1,4 @@
-# Webtise Facebook Pixel Extension #
+# Interjar Facebook Pixel Extension #
 
 ### What is this repository for? ###
 
@@ -16,4 +16,4 @@
 ### Who do I talk to? ###
 
 * Josh Carter
-* josh@webtise.com
+* josh@interjar.com
