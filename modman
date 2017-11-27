@@ -1,7 +1,5 @@
 app/code/local/Interjar/Fbpixel
-
 app/design/frontend/base/default/layout/interjar/fbpixel.xml
-
 app/design/frontend/base/default/template/interjar/fbpixel
-
 app/etc/modules/Interjar_Fbpixel.xml
+skin/frontend/base/default/js/interjar/fbevents.js

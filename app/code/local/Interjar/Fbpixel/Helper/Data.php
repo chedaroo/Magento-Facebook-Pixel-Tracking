@@ -14,7 +14,20 @@ class Interjar_Fbpixel_Helper_Data extends Mage_Core_Helper_Abstract
      * @return bool
      */
     public function isEnabled() {
-        if(Mage::getStoreConfig('fbpixel/general/enabled')) {
+        $storeId = Mage::app()->getStore()->getId();
+        if(Mage::getStoreConfig('fbpixel/general/enabled', $storeId)) {
+            return true;
+        }
+        return false;
+    }
+    /**
+     * Check system config to see if Fb Pixel is enabled
+     *
+     * @return bool
+     */
+    public function isLoadingJsLocally() {
+        $storeId = Mage::app()->getStore()->getId();
+        if(Mage::getStoreConfig('fbpixel/general/load_local_js', $storeId)) {
             return true;
         }
         return false;
