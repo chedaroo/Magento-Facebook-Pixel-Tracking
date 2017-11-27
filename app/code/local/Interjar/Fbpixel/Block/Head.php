@@ -6,7 +6,7 @@
  * Time: 10:39
  */
 
-class Interjar_Fbpixel_Block_Head extends Mage_Core_Block_Template
+class Interjar_Fbpixel_Block_Head extends Mage_Page_Block_Html_Head
 {
     /**
      * @var Interjar_Fbpixel_Helper_Data
