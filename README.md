@@ -3,7 +3,7 @@
 ### What is this repository for? ###
 
 * Easy to use Facebook Pixel implementation for Magento -- Now with Idev OneStepCheckout Integration
-* v1.0.3
+* v1.1.1
 
 ### How do I get set up? ###
 
