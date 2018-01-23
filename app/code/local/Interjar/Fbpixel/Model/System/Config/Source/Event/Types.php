@@ -16,6 +16,10 @@ class Interjar_Fbpixel_Model_System_Config_Source_Event_Types
                 'label' => 'View Content'
             ),
             array(
+                'value' => 'ViewCategory',
+                'label' => 'View Category'
+            ),
+            array(
                 'value' => 'Search',
                 'label' => 'Search'
             ),
