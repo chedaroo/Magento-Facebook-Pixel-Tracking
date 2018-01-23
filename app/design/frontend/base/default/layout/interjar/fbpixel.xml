@@ -21,6 +21,19 @@
 
     </catalog_product_view>
 
+    <!-- Add ViewCategory event to category pages -->
+    <catalog_category_default>
+        <reference name="fbpixel.head">
+            <block type="fbpixel/category" name="fbpixel.view.content.category" as="fbpixel_view_content_category" template="interjar/fbpixel/catalog/category.phtml"/>
+        </reference>
+    </catalog_category_default>
+
+    <catalog_category_layered>
+        <reference name="fbpixel.head">
+            <block type="fbpixel/category" name="fbpixel.view.content.category" as="fbpixel_view_content_category" template="interjar/fbpixel/catalog/category.phtml"/>
+        </reference>
+    </catalog_category_layered>
+
     <!-- Add AddToCart Tracking to Cart Page-->
     <checkout_cart_index>
 

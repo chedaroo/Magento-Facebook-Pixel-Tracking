@@ -1,0 +1,10 @@
+<?php if($this->showViewCategory()): ?>
+	<script type="text/javascript">
+		fbq('trackCustom', 'ViewCategory', {
+			content_name: "<?php echo $this->getCategoryName(); ?>",
+			content_category: "<?php echo $this->getBreadcrumb(); ?>",
+			content_ids: <?php echo $this->getProductSkus(); ?>,
+			content_type: "product"
+		});
+	</script>
+<?php endif; ?>
