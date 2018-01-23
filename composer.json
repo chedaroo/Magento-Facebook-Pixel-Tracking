@@ -2,6 +2,6 @@
   "name": "interjar/fbpixel",
   "type": "magento-module",
   "description": "Magento 1.x Facebook Pixel Tracking Module",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT"
 }
