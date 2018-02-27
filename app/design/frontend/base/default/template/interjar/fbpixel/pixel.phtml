@@ -1,0 +1,14 @@
+<?php
+    /** @var Interjar_Fbpixel_Helper_Data $_helper */
+    $_helper = Mage::helper('fbpixel');
+?>
+
+<?php if($_helper->isEnabled()): ?>
+
+    <?php $_id = $this->getPixelId(); ?>
+
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=<?php echo $_id ?>&ev=PageView&noscript=1"/>
+    </noscript>
+
+<?php endif; ?>

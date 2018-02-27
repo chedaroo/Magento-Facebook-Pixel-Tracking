@@ -10,6 +10,10 @@
             </block>
         </reference>
 
+        <reference name="after_body_start">
+            <block type="fbpixel/head" name="fbpixel.pixel" as="fbpixel_pixel" template="webtise/fbpixel/pixel.phtml"/>
+        </reference>
+
     </default>
 
     <!-- Add ViewContent & AddToCart Tracking to Product Pages-->
